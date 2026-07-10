@@ -3,10 +3,10 @@ spring:
     name: sms
 
   datasource:
-      url: jdbc:mysql://localhost:3306/s_m_s
-      username: root
-      password: asdfghjkl
-      driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/s_m_s?createDatabaseIfNotExist=true
+    username: root
+    password: asdfghjkl
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
