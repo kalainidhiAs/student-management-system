@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: sms
+
+  datasource:
+      url: jdbc:mysql://localhost:3306/s_m_s
+      username: root
+      password: asdfghjkl
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        show-sql: true
+        format-sql: true
